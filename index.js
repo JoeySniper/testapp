@@ -1,4 +1,7 @@
-my app version 01
-my app version 02
-my app version 03
-my app update last
+echo "# myapp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JoeySniper/myapp.git
+git push -u origin main
